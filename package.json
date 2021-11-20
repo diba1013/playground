@@ -1,0 +1,20 @@
+{
+	"name": "@diba1013/playground",
+	"description": "Just testing out some new stuff",
+	"version": "1.0.0",
+	"author": "diba1013",
+	"license": "MIT",
+	"scripts": {
+		"prepare": "husky install",
+		"lint:ts": "eslint --ext .js,.ts",
+		"lint:ts:fix": "npm run -s lint:ts -- --fix",
+		"test": "echo 'Hello'"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^15.0.0",
+		"@commitlint/config-conventional": "^15.0.0",
+		"@diba1013/eslint-config": "github:diba1013/eslint-config",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.0.3"
+	}
+}
